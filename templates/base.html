@@ -1,5 +1,5 @@
 {% load django_bootstrap5 %}
-{% load statics %}
+{% load static %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -12,7 +12,7 @@
         <title>{% block title %}{% endblock %}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{% statics stylesheet.css%}">
+        <link rel="stylesheet" href="{% static stylesheet.css%}">
         {% bootstrap_css %}
         {% bootstrap_javascript %}
         {% block scripts %}
@@ -27,6 +27,6 @@
         <![endif]-->
         {% block content %}
         {% endblock %}
-        <script src="{% statics script.js %}" async defer></script>
+        <script src="{% static script.js %}" async defer></script>
     </body>
 </html>
