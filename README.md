@@ -1,8 +1,8 @@
 ## Languages
 [![言語バッジ](https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=flat-square&logoColor=white)](https://www.djangoproject.com)
 ## Description
-DjangoとBootstrapを使って作成した、ホテルサイトのデモです。
-実装機能については別取りのsheet.txtを参照してください。
+This is Demo scripted with Django and Bootstrap5.
+Please read sheet.txt about functions.
 # Install
 Use this command to install Python and django:
 ```
